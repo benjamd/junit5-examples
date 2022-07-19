@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ar.com.benjamd.junit5app.ejemplo.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.087 s - in ar.com.benjamd.junit5app.ejemplo.models.CuentaTest

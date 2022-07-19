@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest" time="0.087" tests="7" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/benja/IdeaProjects/JunitApp/target/test-classes:/home/benja/IdeaProjects/JunitApp/target/classes:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/benja/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/benja/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/benja/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/benja/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-15.0.2/lib"/>
+    <property name="sun.java.command" value="/home/benja/IdeaProjects/JunitApp/target/surefire/surefirebooter16944797089490281676.jar /home/benja/IdeaProjects/JunitApp/target/surefire 2022-06-16T05-22-41_257-jvmRun1 surefire4819218152046624332tmp surefire_01889003100305063058tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/benja/IdeaProjects/JunitApp/target/test-classes:/home/benja/IdeaProjects/JunitApp/target/classes:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/benja/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/benja/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/benja/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/benja/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/benja/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/benja"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-15.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/benja/IdeaProjects/JunitApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/benja/IdeaProjects/JunitApp/target/surefire/surefirebooter16944797089490281676.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="benja"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-40-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/benja/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/home/benja/IdeaProjects/JunitApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="transferirDineroCuentasTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaOperacionesTest" time="0">
+    <skipped message="void ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaOperacionesTest.transferirDineroCuentasTest() is @Disabled"/>
+    <system-out><![CDATA[Inicializando el test
+]]></system-out>
+  </testcase>
+  <testcase name="relacionBancoCuentasTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaOperacionesTest" time="0.037"/>
+  <testcase name="debitoCuentaTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaOperacionesTest" time="0.004"/>
+  <testcase name="creditoCuentaTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaOperacionesTest" time="0.001"/>
+  <testcase name="nombreCuentaTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldoTest" time="0.002"/>
+  <testcase name="saldoCuentaTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldoTest" time="0.002"/>
+  <testcase name="referenciaCuentaTest" classname="ar.com.benjamd.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldoTest" time="0.001"/>
+</testsuite>
